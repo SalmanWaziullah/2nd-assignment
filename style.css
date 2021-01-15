@@ -38,7 +38,7 @@
 }
 
 .custom-content-right {
-    padding: 200px 82px 0px 100px !important;
+    padding: 250px 80px 0px 100px !important;
 }
 
 .custom-content-right h1,
@@ -89,6 +89,7 @@ h2 {
 
 .right-col img {
     width: 100%;
+    padding-top: 80px;
 }
 
 .right-col {
@@ -122,4 +123,56 @@ h2 {
 
 .blog p {
     font-weight: 500px !important;
+}
+
+.custom-card {
+    margin: auto;
+    background: rgb(12 63 125) !important;
+    color: white;
+}
+
+.copyright {
+    color: #999;
+    background: #272525;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.copyR {
+    width: 550px;
+    float: left;
+    font-size: 13px;
+    padding: 20px 0px;
+    margin-top: 15px;
+}
+
+.copyL {
+    width: 550px;
+    float: right;
+    padding: 32px 0px 25px;
+}
+
+.copyL ul {
+    margin-left: 160px;
+}
+
+.copyL ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.copyL ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+.copyL ul li a:hover {
+    color: #ff4523;
+}
+
+.copyRightContainer {
+    border-top: 1px solid #999;
+    background: #272525;
 }
