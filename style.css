@@ -36,8 +36,7 @@
  }
  
  .custom-content-right {
-     margin-left: 100px;
-     padding-top: 130px;
+     padding: 200px 60px !important;
  }
  
  .custom-content-right h1,
@@ -57,7 +56,7 @@
      font-weight: 500;
      color: dimgray;
      font-size: 18px;
-     width: 100%;
+     width: 60%;
      margin-top: 25px;
  }
  
@@ -121,17 +120,4 @@
  
  .blog p {
      font-weight: 500px !important;
- }
- 
- @media(max-width:662px) {
-     .section-2 .container .custom-content,
-     {
-         display: 100% !important;
-         width: 80%;
-         height: auto;
-     }
-     .custom-content-right {
-         display: block !important;
-         width: 80%;
-     }
  }
